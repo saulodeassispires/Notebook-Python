@@ -1,0 +1,89 @@
+[0m12:36:39.509003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002482EE92FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248320A7220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248320A7010>]}
+
+
+============================== 12:36:39.518182 | c14ac48a-f56a-4966-b6c5-c50d3f70ccda ==============================
+[0m12:36:39.518182 [info ] [MainThread]: Running with dbt=1.7.1
+[0m12:36:39.519182 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\SAP\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:36:50.459065 [debug] [MainThread]: Starter project path: C:\saulo\github\dbt_prototype\dbt_venv\lib\site-packages\dbt\include\starter_project
+[0m12:36:50.528203 [info ] [MainThread]: 
+Your new dbt project "dbt_prototype" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:36:50.531691 [info ] [MainThread]: Setting up your profile.
+[0m12:37:53.262442 [info ] [MainThread]: Profile dbt_prototype written to C:\Users\SAP\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:37:53.266334 [debug] [MainThread]: Command `dbt init` succeeded at 12:37:53.265249 after 73.81 seconds
+[0m12:37:53.266891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002482EE92FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248320A6BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248320A6F80>]}
+[0m12:37:53.266891 [debug] [MainThread]: Flushing usage events
+[0m12:42:44.537685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B558932E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B58AA7250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B58AA7040>]}
+
+
+============================== 12:42:44.540224 | c45a2a3e-79d8-40f6-900a-9d0f88c7daf6 ==============================
+[0m12:42:44.540224 [info ] [MainThread]: Running with dbt=1.7.1
+[0m12:42:44.540224 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\SAP\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:42:44.543287 [info ] [MainThread]: dbt version: 1.7.1
+[0m12:42:44.543882 [info ] [MainThread]: python version: 3.10.11
+[0m12:42:44.543882 [info ] [MainThread]: python path: C:\saulo\github\dbt_prototype\dbt_venv\Scripts\python.exe
+[0m12:42:44.545029 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m12:42:44.897536 [info ] [MainThread]: Using profiles dir at C:\Users\SAP\.dbt
+[0m12:42:44.897536 [info ] [MainThread]: Using profiles.yml file at C:\Users\SAP\.dbt\profiles.yml
+[0m12:42:44.897536 [info ] [MainThread]: Using dbt_project.yml file at C:\Saulo\GitHub\dbt_prototype\dbt_project.yml
+[0m12:42:44.909962 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:42:44.911596 [debug] [MainThread]: Command `dbt debug` failed at 12:42:44.911596 after 0.43 seconds
+[0m12:42:44.911596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B558932E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B59353490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027B58AA7100>]}
+[0m12:42:44.911596 [debug] [MainThread]: Flushing usage events
+[0m12:43:32.714162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6E5F97850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6E91A72E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6E91A70D0>]}
+
+
+============================== 12:43:32.714162 | afc68c75-ba04-4af2-bea0-707f7bf3fdd6 ==============================
+[0m12:43:32.714162 [info ] [MainThread]: Running with dbt=1.7.1
+[0m12:43:32.714162 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\SAP\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:43:32.719668 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Saulo\GitHub\dbt_prototype\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:43:32.722285 [debug] [MainThread]: Command `dbt test` failed at 12:43:32.721750 after 0.06 seconds
+[0m12:43:32.722285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6E5F97850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6E91A72B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6E91A7340>]}
+[0m12:43:32.722285 [debug] [MainThread]: Flushing usage events
+[0m12:44:00.519796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002210F392B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221124558D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022112456D40>]}
+
+
+============================== 12:44:00.520304 | 20982fe4-21f5-4315-8284-8c844706bdb9 ==============================
+[0m12:44:00.520304 [info ] [MainThread]: Running with dbt=1.7.1
+[0m12:44:00.520304 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\SAP\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:44:00.526693 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Saulo\GitHub\dbt_prototype\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:44:00.529204 [debug] [MainThread]: Command `dbt run` failed at 12:44:00.529204 after 0.08 seconds
+[0m12:44:00.529204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002210F392B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221124566E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022112454070>]}
+[0m12:44:00.529204 [debug] [MainThread]: Flushing usage events
+[0m13:27:53.737133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267574972E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002675A6558D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002675A657DC0>]}
+
+
+============================== 13:27:53.739672 | 96eac488-16d9-44f8-a060-8766016a02fc ==============================
+[0m13:27:53.739672 [info ] [MainThread]: Running with dbt=1.7.1
+[0m13:27:53.739672 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\SAP\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m13:27:53.743191 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Saulo\GitHub\dbt_prototype\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:27:53.744810 [debug] [MainThread]: Command `dbt run` failed at 13:27:53.744810 after 0.06 seconds
+[0m13:27:53.745347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267574972E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002675A657040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002675A654070>]}
+[0m13:27:53.745347 [debug] [MainThread]: Flushing usage events
