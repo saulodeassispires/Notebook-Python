@@ -14,6 +14,7 @@ from snowflake.connector.pandas_tools import write_pandas
 def authenticate(username, pwd):
     auth = Five9('tlgjustin', 'WyzwZMa41s42CXuBu2a8bFGbDKzzJGAi')
     config = auth.configuration
+    
     return (auth, config)
 
 f9, config = authenticate("username", "password")
@@ -81,6 +82,8 @@ def executa(cont):
 			role='SYSADMIN',) 
 
 	cs = engine2.cursor()
+     
+	 
 
 	write_pandas(engine2, df, target_table, auto_create_table=True, overwrite = False)
 
